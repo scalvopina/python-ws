@@ -24,4 +24,34 @@ if __name__ == "__main__":
     msn = ejercicio1(peso, talla)
     print(f"Hola {name}, tienes {edad} años y tu peso es {msn}")
 
-  #  ejercicio2()
+  #  Ejercicio2()
+
+def obtener_numero(mensaje):
+    numero = input(mensaje) 
+    return int(numero)  
+
+def numeros_pares_en_rango(minimo, maximo):
+    pares = [] 
+    for num in range(minimo, maximo + 1): 
+        if num % 2 == 0:
+            pares.append(num) 
+    return pares
+
+def main():
+    menor = obtener_numero("Ingresa el número menor: ")
+    mayor = obtener_numero("Ingresa el número mayor: ")
+
+    if menor >= mayor:
+        print("El primer número debe ser menor que el segundo.")
+        return 
+
+    pares = numeros_pares_en_rango(menor, mayor)
+
+    print("Números pares entre", menor, "y", mayor, ":")
+    for p in pares:
+        print(p, end=", ") 
+
+    cantidad_total = mayor - menor + 1
+    print("\nCantidad total de números en el intervalo:", cantidad_total)
+
+main()
