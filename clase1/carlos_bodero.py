@@ -37,14 +37,8 @@ def ejercicio2():
         print(f"Números pares entre {Numero_menor} y {Numero_mayor} :{cuenta_pares}")
         print(f"{salida_numeros}")
         print(f"Cantidad total de números en el intervalo: {cuenta_numeros}")
-        
-
-
-
-
-
-
-
+   
+   
 if __name__ == "__main__":
     ejercicio1()
     ejercicio2()
