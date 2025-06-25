@@ -15,7 +15,6 @@ def ejercicio1():
     else:
         print("obesidad")
 
-
 def ejercicio2():
     Numero_menor = int(input("Ingresa el número menor:"))
     Numero_mayor = int(input("Ingresa el número mayor:"))
