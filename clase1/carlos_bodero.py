@@ -28,7 +28,10 @@ def ejercicio2():
         cuenta_pares = 0
         cuenta_numeros = 0
         for iterador in numeros:
-            print(iterador)
+            #print(iterador)
+            cuenta_numeros = cuenta_numeros + 1
+            if iterador % 2 == 0:
+                cuenta_pares = cuenta_pares + 1
         print(f"Números pares entre {Numero_menor} y {Numero_mayor} :{cuenta_pares}")
         print(f"Cantidad total de números en el intervalo: {cuenta_numeros}")
         
