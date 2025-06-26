@@ -76,3 +76,5 @@ if __name__ == "__main__":
     calcular_cantidad_total(numero1, numero2)
 
     print("\n--- Programa finalizado ---")
+    print("Este es mi cambio para el deber de programación")
+    print("Este es mi primer cambio para el deber")
