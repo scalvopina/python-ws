@@ -54,7 +54,7 @@ if __name__ == "__main__":
     latienda.agregar_producto(destornillador)
     latienda.agregar_producto(martillo)
     latienda.agregar_producto(pinzas)
-    print(f"++++ Tienda {latienda.nombre} +++++++")
+    print(f"++++ Tienda {latienda.nombre} ++++++++")
     print("+++++Los productos son:  +++++++")
     latienda.listar_productos()
     print("+++++venta de Producto +++++++")
