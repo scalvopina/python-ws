@@ -59,7 +59,7 @@ if __name__ == "__main__":
     latienda.listar_productos()
     print("+++++venta de Producto +++++++")
     latienda.vender_producto("martillo",4)
-    print("+++++Stock de Tienda despues de venta +++++++")
+    print("+++++Stock de Tienda despues de venta ++++++++")
     latienda.listar_productos()
 
 
