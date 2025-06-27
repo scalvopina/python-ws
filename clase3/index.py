@@ -5,9 +5,10 @@
 
 # 📌 Requisitos:
 # 1. Instalar virtualenv: pip install virtualenv​
-# 2. Crear entorno virtual: python -m venv venv​
+# 2. Crear entorno virtual: python -m venv venv​   virtual enviroment
 # 3. Activar entorno:​
-#    - Windows: venv\Scripts\activate​
+#    - Mac source  venv\bin\activate
+#    - Windows: venv\Scripts\activate 
 # 4. Instalar Flask: pip install flask​
 # 5. mkdir flask_crud_usuarios​
 # 6. cd flask_crud_usuarios​
