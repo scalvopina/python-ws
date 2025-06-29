@@ -8,9 +8,9 @@ class Product(db.Model):
     descripcion = db.Column(db.Text, nullable=False)
     precio = db.Column(db.Float, nullable=False)
     stock = db.Column(db.Integer, nullable=False)
-    categoria = db.Column(db.String(255), nullable=False)
+    categoria_id = db.Column(db.Integer, db.ForeignKey('categorias.id'), nullable=False) 
     fecha_creacion = db.Column(db.DateTime, default=datetime.now)
     imagen = db.Column(db.String(255))
-    
+   
     def __repr__(self):
         return f'<Product {self.nombre}>'
